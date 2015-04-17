@@ -27,4 +27,7 @@ RUN curl https://bitbucket.org/opencast-community/matterhorn/raw/8001fd1fc85cf94
 # Expose the default port
 EXPOSE 61616
 
+# ...and Web UI
+EXPOSE 8161
+
 CMD ["/start.sh"]
